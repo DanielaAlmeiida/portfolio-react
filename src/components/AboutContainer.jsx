@@ -3,10 +3,14 @@ const AboutContainer = () => {
     <section className="about-container">
       <h2>About</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequuntur sit, facilis quisquam minima alias esse, itaque provident dolor repellat eos nobis ipsum temporibus voluptas. Quisquam aut dolore quia fugit!
+        Meu nome é Daniela, tenho 20 anos e sou estudante do curso de Análise e Desenvolvimento de Sistemas na FIAP (Ago 2022 - Jun 2024). 
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores hic voluptatem reiciendis obcaecati rem recusandae asperiores sed fugit totam blanditiis!
+        Sou uma pessoa muito curiosa, analítica, apaixonada por tecnologia e resolução de problemas. 
+      </p>
+      <p>
+        Busco um estágio na área de desenvolvimento de sistemas para me desenvolver profissionalmente, 
+        focando em atuar tanto no desenvolvimento full stack quanto no front-end.      
       </p>
     </section>
   )

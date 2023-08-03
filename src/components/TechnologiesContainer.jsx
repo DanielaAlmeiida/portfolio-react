@@ -13,16 +13,16 @@ import {
 import '../styles/components/technologiescontainer.sass'
 
 const technologies = [
-    { id: "html", name: "HTML5", icon: <DiHtml5 /> },
-    { id: "css", name: "CSS3", icon: <DiCss3 /> },
-    { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
-    { id: "java", name: "Java", icon: <DiJava /> },
-    { id: "mysql", name: "MySQL", icon: <DiMysql /> },
-    { id: "react", name: "React", icon: <DiReact /> },
-    { id: "sass", name: "SASS", icon: <DiSass /> },
-    { id: "php", name: "PHP", icon: <DiPhp /> },
-    { id: "bootstrap", name: "Bootstrap", icon: <DiBootstrap /> },
-    { id: "android", name: "AndroidStudio", icon: <DiAndroid /> }
+    { id: "html", name: "HTML5", icon: <DiHtml5 />, description: "Intermediate" },
+    { id: "css", name: "CSS3", icon: <DiCss3 />, description: "Intermediate" },
+    { id: "js", name: "JavaScript", icon: <DiJsBadge />, description: "Intermediate" },
+    { id: "java", name: "Java", icon: <DiJava />, description: "Intermediate" },
+    { id: "mysql", name: "MySQL", icon: <DiMysql />, description: "Intermediate" },
+    { id: "react", name: "React", icon: <DiReact />, description: "Basic" },
+    { id: "sass", name: "SASS", icon: <DiSass />, description: "Basic" },
+    { id: "php", name: "PHP", icon: <DiPhp />, description: "Basic" },
+    { id: "bootstrap", name: "Bootstrap", icon: <DiBootstrap />, description: "Basic" },
+    { id: "android", name: "AndroidStudio", icon: <DiAndroid />, description: "Basic" }
 ]
 
 const TechnologiesContainer = () => {
@@ -36,7 +36,7 @@ const TechnologiesContainer = () => {
                     <div className="technology-info">
                         <h3>{tech.name}</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            {tech.description}
                         </p>
                     </div>
                     
