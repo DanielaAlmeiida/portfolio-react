@@ -4,6 +4,7 @@ import InformationContainer from '../components/InformationContainer';
 
 import '../styles/components/sidebar.sass';
 
+const curriculoUrl = './src/files/curriculo.pdf';
 
 const Sidebar = () => {
   return (
@@ -16,7 +17,7 @@ const Sidebar = () => {
 
       <InformationContainer />
 
-      <a href="" className="btn">
+      <a href={curriculoUrl} className="btn" download={"curriculo.pdf"}>
         Download currículo
       </a>
     </aside>
